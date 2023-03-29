@@ -1,0 +1,27 @@
+{
+  "name": "react-node-mysql",
+  "version": "1.0.0",
+  "description": "A simple CRUD application with ReactJS, NodeJS, Express, and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojaray2k/react-node-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojaray2k/react-node-mysql/issues"
+  },
+  "homepage": "https://github.com/mojaray2k/react-node-mysql#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.22"
+  }
+}
